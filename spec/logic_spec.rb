@@ -1,3 +1,5 @@
+# rubocop : disable Layout/LineLength
+# rubocop : disable Metrics/BlockNesting
 require_relative '../lib/logic.rb'
 
 describe Logic do
@@ -37,3 +39,6 @@ describe Logic do
     end
   end
 end
+
+# rubocop : enable Layout/LineLength
+# rubocop : enable Metrics/BlockNesting
