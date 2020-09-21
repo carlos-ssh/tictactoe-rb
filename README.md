@@ -1,30 +1,13 @@
+![](https://img.shields.io/badge/Microverse-blueviolet)
+
 # TIC TAC TOE GAME
-In this project, it is assigned for us to create a Tic Tac Toe game using only Ruby to increase our knowledge on the OOP concepts. This project was split in 4 milestones, which were:
+This is the third collaborative project from the Ruby module from the Microverse program it consists on 5 Milestones, in where we will recreate the well known Tic Tac Toe game with User Interface, Game Logic, and OOP principles, we also are going to incorporate some test driven development at the end of the project.
 
- - Setting up the project
- - Designing the user interface
- - Creating the game logic
- - Writing the game instructions
- 
- The main goal of this project is to asure I master the methods ruby provides and to learn how to replicate them using basic coding knowledge.
+## 🔧 Built With
 
-# Built With
-- Ruby
-- Rubocop
-- OOP
-- Linters
-
-# Prerequisites
-- Browser (Google Chrome, Mozilla Firefox, Safari or any other browser)
-
-# Setup
-Open Terminal
-
-Run git clone <a href ="https://github.com/t-yanick/oop/tree/milestone_1">Repository</a>
-
-Run cd lib
-
-Run ruby bin/main
+- Ruby.
+- Using Rubocop Linters.
+- OOP.
 
 # Game Rules
 - The Game will launch a Board on the screen
@@ -35,7 +18,7 @@ Run ruby bin/main
 - Win when a complete line has the same symbols 'X X X' or 'O O O '
 - If nobody wins after all positions have a symbol it will be a draw.
 
-# Game instructions (Screenshots)
+# Game Rules (Screenshots)
 The Players follow the below instructions to play the game:
 
 The Screen will display a welcome board, then Player one is the symbol 'X' and player two is the symbol 'O' From the below screen, Players can add thier names. 
@@ -58,7 +41,31 @@ If all spaces are chosen and there is no winner, it is considered a draw.
 
 <img src = "images/5.png">
 
-All test Cases were successfully passing and working fine.  
+## 🛠 Getting Started
+
+## Install 
+Besides the live demo link, you can run those functions in you own local environment. In order to run, you need to install Ruby in your computer. For windows you can go to [Ruby installer](https://rubyinstaller.org/) and for MAC and LINUX you can go to [Ruby official site](https://www.ruby-lang.org/en/downloads/) for intructions on how to intall it. Then you can clone the project by typing ```git clone https://github.com/Ceci007/Tic-Tac-Toe.git```
+
+To get a local copy up and running follow these simple example steps.
+
+- Go to the main page of te repo.
+- Press the "Code" button and get the repo link.
+- Clone it using git.
+
+## Run the game 
+Type ```bin/main.rb``` in the root file of the project. You can also type ```ruby bin/main.rb``` in the root file of the project.
+
+## Running tests with Rspec
+
+This game was tested with Rspec wich is a computer domain-specific language (DSL) testing tool written in programming language Ruby to test Ruby code. It is a behavior-driven development (BDD) framework which is extensively used in production applications.
+
+## How to get Rspec running
+
+- In the terminal, type `gem install rspec`
+- Once done, go to project directory and type `rspec --init`
+- You will see a folder `spec` and a file `.rspec`
+- Inside spec folder you'll see a `spec_helper.rb` file.
+- In the terminal, type `rspec`
 
 <img src = "images/6.png">
 
