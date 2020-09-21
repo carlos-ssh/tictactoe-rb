@@ -1,6 +1,3 @@
-# rubocop : disable Layout/LineLength
-# rubocop : disable Metrics/BlockNesting
-
 class Board
   attr_reader :board
 
@@ -25,6 +22,3 @@ class Board
   #{board[6]} | #{board[7]} | #{board[8]}"
   end
 end
-
-# rubocop : enable Layout/LineLength
-# rubocop : enable Metrics/BlockNesting

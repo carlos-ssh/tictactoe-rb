@@ -1,6 +1,3 @@
-# rubocop : disable Layout/LineLength
-# rubocop : disable Metrics/BlockNesting
-
 class Message
   def initialize(message)
     @message = message
@@ -12,6 +9,3 @@ class Message
     yield('*' * 40)
   end
 end
-
-# rubocop : enable Layout/LineLength
-# rubocop : enable Metrics/BlockNesting
