@@ -1,9 +1,7 @@
-# rubocop : disable Layout/LineLength
-# rubocop : disable Metrics/BlockNesting
 require_relative '../lib/logic.rb'
 
 describe Logic do
-  let(:game_draw) {Logic.new(%w[X O X X O X O X O])}
+  let(:game_draw) { Logic.new(%w[X O X X O X O X O])}
   let(:game_incomplete) {Logic.new(['X', 'O', 'X', 'X', 5, 6, 7, 8, 9])}
 
   describe '#draw?' do
@@ -39,6 +37,3 @@ describe Logic do
     end
   end
 end
-
-# rubocop : enable Layout/LineLength
-# rubocop : enable Metrics/BlockNesting
