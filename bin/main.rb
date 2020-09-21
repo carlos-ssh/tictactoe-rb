@@ -1,3 +1,6 @@
+# rubocop : disable Layout/LineLength
+# rubocop : disable Metrics/BlockNesting
+
 #!/usr/bin/env ruby
 require_relative '../lib/board.rb'
 require_relative '../lib/message.rb'
@@ -38,3 +41,6 @@ while playing
     next
   end
 end
+
+# rubocop : enable Layout/LineLength
+# rubocop : enable Metrics/BlockNesting

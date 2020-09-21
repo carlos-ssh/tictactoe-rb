@@ -1,3 +1,5 @@
+# rubocop : disable Layout/LineLength
+# rubocop : disable Metrics/BlockNesting
 require_relative '../lib/board.rb'
 
 describe Board do
@@ -42,3 +44,5 @@ describe Board do
   end
  end
 
+# rubocop : enable Layout/LineLength
+# rubocop : enable Metrics/BlockNesting

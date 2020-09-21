@@ -1,3 +1,5 @@
+# rubocop : disable Layout/LineLength
+# rubocop : disable Metrics/BlockNesting
 require_relative '../lib/message.rb'
 
 describe Message do
@@ -9,3 +11,6 @@ describe Message do
     end
   end
 end
+
+# rubocop : enable Layout/LineLength
+# rubocop : enable Metrics/BlockNesting

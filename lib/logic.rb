@@ -1,3 +1,5 @@
+# rubocop : disable Layout/LineLength
+# rubocop : disable Metrics/BlockNesting
 # rubocop:disable Metrics/PerceivedComplexity,Metrics/CyclomaticComplexity
 class Logic
   attr_reader :game
@@ -24,3 +26,5 @@ class Logic
 end
 
 # rubocop:enable Metrics/PerceivedComplexity,Metrics/CyclomaticComplexity
+# rubocop : enable Layout/LineLength
+# rubocop : enable Metrics/BlockNesting
