@@ -44,7 +44,7 @@ If all spaces are chosen and there is no winner, it is considered a draw.
 ## 🛠 Getting Started
 
 ## Install 
-Besides the live demo link, you can run those functions in you own local environment. In order to run, you need to install Ruby in your computer. For windows you can go to [Ruby installer](https://rubyinstaller.org/) and for MAC and LINUX you can go to [Ruby official site](https://www.ruby-lang.org/en/downloads/) for intructions on how to intall it. Then you can clone the project by typing ```git clone https://github.com/Ceci007/Tic-Tac-Toe.git```
+You can run these functions in you own local environment. In order to run, you need to install Ruby in your computer. For windows you can go to [Ruby installer](https://rubyinstaller.org/) and for MAC and LINUX you can go to [Ruby official site](https://www.ruby-lang.org/en/downloads/) for intructions on how to intall it. Then you can clone the project by typing ```git clone https://github.com/Ceci007/Tic-Tac-Toe.git```
 
 To get a local copy up and running follow these simple example steps.
 
@@ -66,6 +66,8 @@ This game was tested with Rspec wich is a computer domain-specific language (DSL
 - You will see a folder `spec` and a file `.rspec`
 - Inside spec folder you'll see a `spec_helper.rb` file.
 - In the terminal, type `rspec`
+
+## Rspec output
 
 <img src = "images/6.png">
 
